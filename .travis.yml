@@ -12,6 +12,6 @@ before_script:
 
 
 script:
-    - python TestCalculadora.py
-    - coverage run TestCalculadora.py
+    - python areas_pruebas.py
+    - coverage run areas_pruebas.py
     - coverage report
